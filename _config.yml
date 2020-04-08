@@ -1,0 +1,22 @@
+title: Jens Krause
+email: "jens@rasta.online"
+description: >
+  Online CV and project list.
+about_me: >
+  Pure breed web-developer, nerd and coder .... looking forward to the next challenge
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://levytsroman.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+linked_in_link: ""
+github_link: "https://www.github.com/RapidAgileSoftware"
+twitter_username: ""
+google_analytics_id: ''
+select_options: clear-filters HTML5 CSS3 SCSS javaScript jQuery materialize charts.js React jekyll Ruby-on-Rails Sinatra front-end back-end finished current
+sass:
+  sass_dir: assets/css/main.css
+  style: :nested
+
+gems:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock

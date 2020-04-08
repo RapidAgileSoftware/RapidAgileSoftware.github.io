@@ -1,0 +1,40 @@
+---
+layout: not_homepage
+quote: Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live
+author: John Woods
+---
+
+{% include quote.html quote=page.quote author=page.author %}
+
+<div class="container about_section">
+  <div class="row">
+    <img src="/assets/images/profile_picture.jpg" class="col m2 s3 responsive circle about_img" alt="me">
+    <div class="about_paragraph">
+      <p>
+        Hi there, my name is Jens and I'm a passionate <b>software developer</b> all my adult life long. I started serious coding while studying <b>Computer Science</b> back in 2001 in <i>Leipzig,Germany</i> and got my first professional job in web-development in 2002. Ever since I learned something new every single day, no matter if it comes to <b>customer satisfaction</b>, improving the <b>Quality of Code</b> with the help of <b>Automation</b> via Continious Integration. Also I love to share my knowledge with those who are eager to learn and help them to avoid the painful mistakes of the past.
+        </p>
+        <p>Most of the time I was working with <b>PHP</b>, <b>Python</b> and later with shiny JavaScript frontend-tools as <b>VueJs</b>, while realising that the actual programming language is way less important then delivering <b>stable</b> and <b>maintainable products</b>. While working on several high-traffic <b>E-Commerce applications</b> this importance was magnified by the fact that any second of downtime can cost real money so I became a strong proponent of <b>Test Driven Development</b> and could establish it in multiple big companies on 4 different continents. Even though it is still possible to introduce bugs, it greatly improves the <b>reliability</b> especially when combined with proper CI hooks and the release speed of new features in complex projects. Simply put: <i>The additional time invested in the very beginning pays off as soon as the first bug appears</i>
+      </p>
+      <p>Coming from a scientific background I never lost my curiosity in the fields of <i>Data Science, AI</i> and <i>Algorithms</i> and I love to tinker around with new tools and techniques. <b>Virtual Environments</b> in Python and later <b>Docker</b> became essential improvements in the way one can develop faster without running in the age old problem of <i>"... but it was working on my machine."</i> while <b>cloud based micro-services</b> became a new way to step away from non-modular Monoliths which are a nightmare when it comes to future-proof your projects. We are living in exciting times where new possibilities enrich our daily work to become better then before.
+      </p>
+      <p>
+        Currently I'm looking for my next adventure, so please feel free to <b>browse my <a class="about_me_links" href="/projects">projects</a></b> section to figure out if I could bring something to the table for your professional needs and <a class="about_me_links" href="/contact"><b>shoot me an email</b></a> if you want to know more.
+      </p>
+    </div>
+  </div>
+  <h3 class="heading skills_heading center-align">Skills:</h3>
+  <div class="skills_wrapper">
+      {% for tech_group in site.data.skills %}
+        <div class="skill_group">
+          <div class="col m4 s6">
+            <h4 class="heading">{{tech_group.name}}:</h4>
+            <div class="skills">
+              {% for tech in tech_group.skills %}
+              <i class="about_skill_icon devicon-{{tech.class}}"></i><span class="skill_names">{{tech.skill_name}}</span><br/>
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+  </div>
+</div>
