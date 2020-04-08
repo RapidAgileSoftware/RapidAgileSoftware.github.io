@@ -5,7 +5,7 @@ description: >
 about_me: >
   Pure breed web-developer, nerd and coder .... looking forward to the next challenge
 baseurl: "/cv" # the subpath of your site, e.g. /blog
-url: "https://rapidagilesoftware.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://rapidagilesoftware.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 linked_in_link: ""
 github_link: "https://www.github.com/RapidAgileSoftware"
 twitter_username: ""
