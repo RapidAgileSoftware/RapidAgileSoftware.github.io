@@ -30,7 +30,7 @@ author: John Woods
             <h4 class="heading">{{tech_group.name}}:</h4>
             <div class="skills">
               {% for tech in tech_group.skills %}
-              <i class="about_skill_icon devicon-{{tech.class}}"></i><span class="skill_names">{{tech.skill_name}}</span><br/>
+              <i class="about_skill_icon {{tech.class}}"></i><span class="skill_names">{{tech.skill_name}}</span><br/>
               {% endfor %}
             </div>
           </div>

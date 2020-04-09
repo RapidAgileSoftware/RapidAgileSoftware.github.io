@@ -770,6 +770,9 @@ button.fill:hover {
   background-color: transparent;
   color: #ddd; }
 
+.jekyll-icon::before {
+  content: url("../images/jekyll.png"); }
+
 button.fill:before {
   content: "";
   position: absolute;

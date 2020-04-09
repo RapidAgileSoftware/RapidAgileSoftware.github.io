@@ -329,6 +329,11 @@ button.fill:hover {
   color: $cover-color;
 }
 
+.jekyll-icon::before {
+  content: url("../images/jekyll.png");
+  
+}
+
 button.fill:before {
   content: "";
   position: absolute;

@@ -1,62 +1,115 @@
-- name: web
+- name: Languages
   skills:
-    - class: html5-plain
-      skill_name: HTML5
-    - class: css3-plain
-      skill_name: CSS3
-    - class: sass-plain
-      skill_name: SASS
-    - class: bootstrap-plain
-      skill_name: Bootstrap
-    - class: jquery-plain
-      skill_name: jQuery
-
-- name: languages
-  skills:
-    - class: javascript-plain
-      skill_name: JavaScript
-    - class: python-plain
-      skill_name: Python
-    - class: php-plain
+    - class: fab fa-php
       skill_name: PHP
+    - class: fab fa-python
+      skill_name: Python
+    - class: fab fa-js-square
+      skill_name: JavaScript
+    - class: devicon-typescript-plain
+      skill_name: TypeScript
+    - class: devicon-go-plain
+      skill_name: Go
+    - class: devicon-cplusplus-plain
+      skill_name: C++
 
-- name: databases
+- name: Web
   skills:
-    - class: postgresql-plain
-      skill_name: Postgresql
-    - class: mongodb-plain
-      skill_name: MongoDB
-    - class: mysql-plain
-      skill_name: MySQL
+    - class: fab fa-html5
+      skill_name: HTML5
+    - class: fab fa-css3
+      skill_name: CSS3
+    - class: fab fa-sass
+      skill_name: SASS
+    - class: devicon-bootstrap-plain
+      skill_name: Bootstrap
+    - class: devicon-jquery-plain
+      skill_name: jQuery
+    - class: fab fa-font-awesome-flag
+      skill_name: Font Awesome
 
-- name: frontend frameworks
+- name: DevOps
   skills:
-    - class: react-plain
+    - class: fab fa-docker
+      skill_name: Docker
+    - class: devicon-travis-plain
+      skill_name: Travis CI
+    - class: fab fa-jenkins
+      skill_name: Jenkins
+    - class: fab fa-aws
+      skill_name: AWS
+    - class: fab fa-git
+      skill_name: Git
+    - class: fab fa-stackpath
+      skill_name: StackPath
+
+- name: Integrations
+  skills:
+    - class: fab fa-amazon-pay
+      skill_name: Amazon Pay
+    - class: fab fa-stripe
+      skill_name: Stripe
+    - class: fab fa-mailchimp
+      skill_name: MailChimp
+    - class: fab fa-amazon
+      skill_name: Amazon
+    - class: fab fa-dhl
+      skill_name: DHL
+
+- name: Backend
+  skills:
+    - class: devicon-django-plain
+      skill_name: Django
+    - class: fas fa-birthday-cake
+      skill_name: CakePHP
+    - class: fab fa-laravel
+      skill_name: Laravel
+    - class: fab fa-symfony
+      skill_name: Symfony
+    - class: fas fa-dove
+      skill_name: Phalcon
+
+- name: Testing
+  skills:
+    - class: fab fa-python
+      skill_name: PyTest
+    - class: fab fa-php
+      skill_name: PHP Unit
+    - class: fab fa-php
+      skill_name: Codeception
+    - class: devicon-jasmine-plain
+      skill_name: Jasmine
+
+- name: CMS
+  skills:
+    - class: fas fa-cookie
+      skill_name: Plone
+    - class: fab fa-wordpress
+      skill_name: Wordpress
+    - class: fab fa-typo3
+      skill_name: Typo3
+
+
+- name: Frontend
+  skills:
+    - class: fab fa-vuejs
+      skill_name: VueJS
+    - class: fab fa-react
       skill_name: React
-    - class: vuejs-plain
-      skill_name: Vue
-    - class: jekyll-plain
+    - class: jekyll-icon
       skill_name: Jekyll
 
-- name: backend frameworks
+- name: Tools
   skills:
-    - class: nodejs-plain
-      skill_name: NodeJS
-    - class: django-plain
-      skill_name: Django
+    - class: fab fa-confluence
+      skill_name: Confluence
+    - class: fab fa-jira
+      skill_name: Jira
+    - class: fab fa-trello
+      skill_name: trello
+    - class: fab fa-slack
+      skill_name: Slack
+    
 
-- name: devops
-  skills:
-    - class: git-plain
-      skill_name: Git
-    - class: github-plain
-      skill_name: GitHub
-    - class: heroku-original
-      skill_name: Heroku
-    - class: docker-plain
-      skill_name: Docker
 
-- name: testing
-  skills:
-    - class: jasmine-plain
-      skill_name: Jasmine
+
