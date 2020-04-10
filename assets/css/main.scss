@@ -49,6 +49,11 @@ body {
   min-width: 300px;
 }
 
+div.project_list > div:nth-child(2){
+  background-repeat: no-repeat;
+  background-position: 80% 50%;
+}
+
 nav {
   margin-top: 40px;
   margin-bottom: 100px;
@@ -210,6 +215,7 @@ nav ul li {
 }
 
 .project_list {
+
   .modal,
   .modal-footer {
     background-color: $dark-grey;

@@ -27,9 +27,13 @@
           skills:
         </div>
         <div class="col s9 m10">
+          {{project.technologies}}
+          
+        <!--
           {% for tech in project.technologies %}
-            <i class="devicon-{{tech}} project_icons"></i>
+            <li>{{tech}}</li>
           {% endfor %}
+        -->
         </div>
       </div>
     </div>
@@ -37,7 +41,6 @@
   <div class="modal-footer center-align">
       <div class="buttons">
         <a class="button_wrapper" target="_blank" href="{{project.url}}"><button class="fill">Live</button></a>
-        <a class="button_wrapper" target="_blank" href="{{project.github_url}}"><button class="fill">Github</button></a>
         <a href="" class="button_wrapper">
           <button id="{{project.id}}" class="next fill">Next</button>
         </a>
