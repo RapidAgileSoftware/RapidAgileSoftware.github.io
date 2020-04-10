@@ -6,7 +6,7 @@ about_me: >
   Pure breed web-developer, nerd and coder .... looking forward to the next challenge
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://rapidagilesoftware.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-linked_in_link: ""
+linked_in_link: "https:/www.linkedin.com/in/jens-krause-2a88901a6"
 github_link: "https://www.github.com/RapidAgileSoftware"
 twitter_username: ""
 google_analytics_id: ''
