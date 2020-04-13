@@ -534,6 +534,9 @@ i {
 .about_section .skill_group {
   width: 30%; }
 
+.resume-wrapper {
+  text-align: center; }
+
 .my_footer {
   background-color: #292929;
   margin-top: 40px; }
