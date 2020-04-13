@@ -21,7 +21,7 @@
   ]
 - id: 4
   title: Online Booking system - Freizeitplan.net
-  url: https://freizeitplan.net/
+  url: http://freizeitplan.net/
   github_url: 
   description: FREIZEITPLAN.NET is a professional Booking System for accommodation, tours and events. It already offers tailor-made solutions for many industries or can be further customized to special business needs. 
   technologies: CakePhp, TDD, JavaScript, API
