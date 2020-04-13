@@ -10,6 +10,7 @@ linked_in_link: "https://www.linkedin.com/in/jens-krause-2a88901a6"
 github_link: "https://www.github.com/RapidAgileSoftware"
 twitter_username: ""
 google_analytics_id: ''
+contact_endpoint: "https://formspree.io/mnqbolya"
 select_options: clear-filters HTML5 CSS3 SCSS javaScript jQuery materialize charts.js React jekyll Ruby-on-Rails Sinatra front-end back-end finished current
 sass:
   sass_dir: assets/css/main.css
