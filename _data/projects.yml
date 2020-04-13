@@ -1,5 +1,5 @@
 - id: 2
-  title: crazy-factory.com
+  title: Biggest Piercing Online Shop - crazy-factory.com
   url: https://www.crazy-factory.com
   github_url: 
   description: Worlds biggest Piercing Online shop
@@ -10,21 +10,22 @@
   ]
 
 - id: 3
-  title: Stack Overflow Clone
-  url: https://dbc-hackoverflow.herokuapp.com/
-  github_url: https://github.com/wvicioso/hackoverflow
-  description: A standard discussion board app that's an attempt at a very simple version of the popular programming platform <a href='stackoverflow.com'>StackOverflow</a>. It allows users to ask questions, give answers and make comments as well as vote up or down on each of the above.
-  technologies: [
-                  html5-plain,
-                  css3-plain-wordmark,
-                  javascript-plain,
-                  ruby-plain,
-                  sinatra-plain,
-                  postgresql-plain,
-                  heroku-original,
-                  materialize-plain
-                ]
-  cover: /assets/images/project_covers/hack-overflow-cover.png
+  title: Leading Real Estate portal of Ecuador - mls-ecuador.com
+  url: https://mls-ecuador.com/
+  github_url: 
+  description: MLS-Ecuador is the most trusted source for real estate in Ecuador. Homes for sale, land and construction lots for sale, condos, and more. We feature premium real estate all over the country from pristine beachfront land or homes to ocean view condos, from mountain top country homes to lands perfect for agriculture and organic gardens in fertile valleys.
+  technologies: Python, Plone CMS, SEO, Diazo, Theming, Api
+  cover: /assets/images/projects/mls-ecuador-logo.png
   images: [
-    '/assets/images/project_covers/hack-overflow-cover.png'
+    '/assets/images/projects/mls-ecuador-details.png'
+  ]
+- id: 4
+  title: Online Booking system - Freizeitplan.net
+  url: https://freizeitplan.net/
+  github_url: 
+  description: FREIZEITPLAN.NET is a professional Booking System for accommodation, tours and events. It already offers tailor-made solutions for many industries or can be further customized to special business needs. 
+  technologies: CakePhp, TDD, JavaScript, API
+  cover: /assets/images/projects/freizeitplan-logo.png
+  images: [
+    '/assets/images/projects/freizeitplan-details.png'
   ]

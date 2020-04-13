@@ -53,9 +53,15 @@ body {
   min-width: 300px;
 }
 
-div.project_list > div:nth-child(2){
+
+div.project_list > div:nth-child(even){
   background-repeat: no-repeat;
   background-position: 80% 50%;
+}
+
+div.project_list > div:nth-child(odd){
+  background-repeat: no-repeat;
+  background-position: 20% 50%;
 }
 
 nav {
