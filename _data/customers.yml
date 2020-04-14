@@ -3,7 +3,7 @@
   url: https://www.crazy-factory.com
   github_url:
   description: Worlds biggest Piercing Online shop
-  technologies: PHP, SEO, TravisCI, Payments, Security
+  technologies: PHP7, SEO, TDD, Scrum, TravisCI, Payments, Security, REST
   cover: /assets/images/projects/cf-logo.png
   images: [
     '/assets/images/projects/crazy-factory-details.png'
@@ -13,8 +13,8 @@
   title: Leading Real Estate portal of Ecuador - mls-ecuador.com
   url: https://mls-ecuador.com/
   github_url:
-  description: MLS-Ecuador is the most trusted source for real estate in Ecuador. Homes for sale, land and construction lots for sale, condos, and more. We feature premium real estate all over the country from pristine beachfront land or homes to ocean view condos, from mountain top country homes to lands perfect for agriculture and organic gardens in fertile valleys.
-  technologies: Python, Plone CMS, SEO, Diazo, Theming, Api
+  description: MLS-Ecuador is the most trusted real estate portal in Ecuador. Properties are managed through a central Listing Service and included dynamic via API calls.
+  technologies: Python, Plone CMS, SEO, Diazo, Api Integrations
   cover: /assets/images/projects/mls-ecuador-logo.png
   images: [
     '/assets/images/projects/mls-ecuador-details.png'
