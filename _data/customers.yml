@@ -1,0 +1,31 @@
+- id: 2
+  title: Biggest Piercing Online Shop - crazy-factory.com
+  url: https://www.crazy-factory.com
+  github_url:
+  description: Worlds biggest Piercing Online shop
+  technologies: PHP, SEO, TravisCI, Payments, Security
+  cover: /assets/images/projects/cf-logo.png
+  images: [
+    '/assets/images/projects/crazy-factory-details.png'
+  ]
+
+- id: 3
+  title: Leading Real Estate portal of Ecuador - mls-ecuador.com
+  url: https://mls-ecuador.com/
+  github_url:
+  description: MLS-Ecuador is the most trusted source for real estate in Ecuador. Homes for sale, land and construction lots for sale, condos, and more. We feature premium real estate all over the country from pristine beachfront land or homes to ocean view condos, from mountain top country homes to lands perfect for agriculture and organic gardens in fertile valleys.
+  technologies: Python, Plone CMS, SEO, Diazo, Theming, Api
+  cover: /assets/images/projects/mls-ecuador-logo.png
+  images: [
+    '/assets/images/projects/mls-ecuador-details.png'
+  ]
+- id: 4
+  title: Online Booking system - Freizeitplan.net
+  url: http://freizeitplan.net/
+  github_url:
+  description: FREIZEITPLAN.NET is a professional Booking System for accommodation, tours and events. It already offers tailor-made solutions for many industries or can be further customized to special business needs.
+  technologies: CakePhp, TDD, JavaScript, API
+  cover: /assets/images/projects/freizeitplan-logo.png
+  images: [
+    '/assets/images/projects/freizeitplan-details.png'
+  ]

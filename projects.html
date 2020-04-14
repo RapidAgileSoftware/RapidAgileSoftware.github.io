@@ -7,8 +7,8 @@ author: Unknown
 {% include quote.html quote=page.quote author=page.author %}
 
 <div class="project_list">
-  <h2 class="heading center">Customers and Projects:</h2>
-  {% for project in site.data.projects %}
+  <h2 class="heading center">Customers:</h2>
+  {% for project in site.data.customers %}
     {% include project_box.html %}
   {% endfor %}
 </div>
