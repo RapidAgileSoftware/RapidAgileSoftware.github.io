@@ -29,3 +29,13 @@
   images: [
     '/assets/images/projects/freizeitplan-details.png'
   ]
+- id: 5
+  title: Restaurant directory - myBrunch.de
+  url: http://myBrunch.de
+  github_url: 
+  description: myBrunch.de is a german professional restaurant listing service to cross promote local brunch options. Done with Typo3 
+  technologies: Typo3, PHP
+  cover: /assets/images/projects/mybrunch-logo.png
+  images: [
+    '/assets/images/projects/mybrunch-details.png'
+  ]

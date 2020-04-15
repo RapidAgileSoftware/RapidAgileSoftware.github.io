@@ -9,6 +9,13 @@ author: Unknown
 <div class="project_list">
   <h2 class="heading center">Customers:</h2>
   {% for project in site.data.customers %}
+    {% include customer_box.html %}
+  {% endfor %}
+</div>
+
+<div class="project_list">
+  <h2 class="heading center">Recent Projects:</h2>
+  {% for project in site.data.projects %}
     {% include project_box.html %}
   {% endfor %}
 </div>
